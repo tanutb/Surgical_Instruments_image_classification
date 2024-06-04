@@ -23,7 +23,7 @@ classification.
 ### Attention model
 - SEResNet50 that is ResNet50 with Squeeze-and-Excitation Networks 
 ### Fine-Grained Image Classification
-- Bilinear Pooling to complexier
+- Bilinear Pooling to aggregate the feature map. provide feature map have more various and complexity
 ### Fine-Grained Image Classification with Attention model
 - WSDAN(Weakly Supervised Data Augmentation Network for Fine-Grained Visual Classification) <br>
 In Abstract said “WS-DAN improves the classification accuracy in two folds. In the first 

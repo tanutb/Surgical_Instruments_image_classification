@@ -39,7 +39,7 @@ WSDAN Get the best performance over the other model
 
 - Accuracy
 
-<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png" width="350" height="150">
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png" width="800" height="170">
 
 ## Visualize WSDAN
 The models can localize the object. And can generate attention maps to represent the 

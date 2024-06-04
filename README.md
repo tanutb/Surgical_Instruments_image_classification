@@ -31,8 +31,14 @@ second stage, attention regions provide accurate location of object, which ensur
 at the object closer and further improve the performance.”
 - model from https://github.com/GuYuc/WS-DAN.PyTorch
 ## Result
-WSDAN Get the best performance over the other model in F1score 
+WSDAN Get the best performance over the other model
+- F1-score
+
 ![F1score](https://github.com/tanutb/onborad/blob/main/img/Result_F1score.png)
+
+- Accuracy
+  
+![F1score](https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png)
 ## Visualize WSDAN
 The models can localize the object. And can generate attention maps to represent the 
 object’s discriminative parts.

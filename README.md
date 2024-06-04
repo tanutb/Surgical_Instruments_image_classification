@@ -5,7 +5,8 @@ This project is a practical one that compares the differences between the variou
 - In total it contains 3009 images and the respective labels classifying the objects as Scalpel, Straight Dissection Clamp, Straight Mayo Scissor or Curved Mayo Scissor in this dataset contain labeled data which use for train and predict bounding box for Image Detection
 - But in this work I just use Alone image in each class for classification only , It's mean just use only 2010 image for train/val/test for classification by ratio 0.7/0.1/0.2<br>
 
-![ImageClass](https://github.com/tanutb/onborad/blob/main/img/class_image.png)
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/class_image.png">
+
 ### Obstacle 
 These two classes have a similar shape, with the only difference being the end of the scissor. 
 The Curved Mayo Scissor has a curved end while the Straight Mayo Scissor has a straight end. 
@@ -13,7 +14,7 @@ According to blue box in image above.
 To classify objects that look similar, the task would fall under the domain of fine-grained 
 classification.
 
-![ImageClass](https://github.com/tanutb/onborad/blob/main/img/obstacle.png)
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/obstacle.png" width="500" height="200">
 
 ## Image Classification 
 ### Base state of the art model
@@ -34,16 +35,21 @@ at the object closer and further improve the performance.”
 WSDAN Get the best performance over the other model
 - F1-score
 
-![F1score](https://github.com/tanutb/onborad/blob/main/img/Result_F1score.png)
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_F1score.png" width="800" height="200">
 
 - Accuracy
-  
-![F1score](https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png)
+
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png" width="350" height="150">
+
 ## Visualize WSDAN
 The models can localize the object. And can generate attention maps to represent the 
 object’s discriminative parts.
-![Visual1](https://github.com/tanutb/onborad/blob/main/img/visualize1.png)
+
+<img src="https://github.com/tanutb/onborad/blob/main/img/visualize1.png" width="700" height="500">
+
 Some image -models cant localize object well due to it’s have reflection of light and 
 something but model still can classify this class correctly maybe it’s because of dataset have small 
 number of data classes
-![Visual2](https://github.com/tanutb/onborad/blob/main/img/visualize2.png)
+
+<img src="https://github.com/tanutb/onborad/blob/main/img/visualize2.png" width="700" height="500">
+

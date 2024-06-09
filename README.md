@@ -10,7 +10,7 @@ This project is a practical one that compares the differences between the variou
 ### Obstacle 
 These two classes have a similar shape, with the only difference being the end of the scissor. 
 The Curved Mayo Scissor has a curved end while the Straight Mayo Scissor has a straight end. 
-According to blue box in image above.
+According to blue box in image below.
 To classify objects that look similar, the task would fall under the domain of fine-grained 
 classification.
 

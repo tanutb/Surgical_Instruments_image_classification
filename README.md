@@ -14,7 +14,7 @@ According to blue box in image below.
 To classify objects that look similar, the task would fall under the domain of fine-grained 
 classification.
 
-<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/obstacle.png" width="500" height="200">
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/obstacle.png">
 
 ## Image Classification 
 ### Base state of the art model

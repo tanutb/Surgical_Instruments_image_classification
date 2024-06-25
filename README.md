@@ -35,21 +35,21 @@ at the object closer and further improve the performance.”
 WSDAN Get the best performance over the other model
 - F1-score
 
-<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_F1score.png" width="800" height="200">
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_F1score.png">
 
 - Accuracy
 
-<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png" width="800" height="170">
+<img src="https://github.com/tanutb/Surgical_Instruments_image_classification/blob/main/img/Result_Accuracy.png">
 
 ## Visualize WSDAN
 The models can localize the object. And can generate attention maps to represent the 
 object’s discriminative parts.
 
-<img src="https://github.com/tanutb/onborad/blob/main/img/visualize1.png" width="700" height="500">
+<img src="https://github.com/tanutb/onborad/blob/main/img/visualize1.png">
 
 Some image -models cant localize object well due to it’s have reflection of light and 
 something but model still can classify this class correctly maybe it’s because of dataset have small 
 number of data classes
 
-<img src="https://github.com/tanutb/onborad/blob/main/img/visualize2.png" width="700" height="500">
+<img src="https://github.com/tanutb/onborad/blob/main/img/visualize2.png">
 
